@@ -1,0 +1,94 @@
+.browse-detailed-view-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 106vw;
+}
+.browse-detailed-view-main-container{
+    display: flex;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 65%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.browse-detailed-view-img-container{
+    height: 40vh;
+    width: 100vw;
+}
+.browse-detailed-view-img{
+    width: 100%;
+    height: 100%;
+}
+.browse-detailed-details-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+@media (min-width : 320px) and (max-width:450px){
+    .browse-detailed-view-main-container{
+        flex-direction: column;
+        width: 90%;
+        margin-top: 100px;
+    }
+    .browse-detailed-view-img-container{
+        width: 100%;
+    }
+}
+
+@media (min-width : 450px) and (max-width:600px){
+    .browse-detailed-view-main-container{
+        flex-direction: column;
+        width: 70%;
+        margin-top: 100px;
+    }
+    .browse-detailed-view-img-container{
+        width: 100%;
+    }
+    .browse-detailed-view-img{
+        height: 40vh;
+    }
+    .browse-detailed-details-container{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width : 600px) and (max-width:767px){
+    .browse-detailed-view-main-container{
+        flex-direction: column;
+        width: 60%;
+        margin-top: 100px;
+    }
+    .browse-detailed-view-img-container{
+        width: 100%;
+    }
+    .browse-detailed-view-img{
+        height: 50vh;
+    }
+    .browse-detailed-details-container{
+        margin-top: 70px;
+    }
+}
+
+@media (min-width : 768px) and (max-width:1150px){
+    .browse-detailed-view-main-container{
+        width: 70%;
+        margin-top: 100px;
+    }
+    .browse-detailed-view-img-container{
+        width: 200%;
+    }
+    
+}
+@media (min-width : 1500px){
+    .browse-detailed-view-img-container{
+        width: 100%;
+    }
+    h2{
+        font-size: 70px;
+    }
+    p{
+        font-size: 30px;
+    }
+}

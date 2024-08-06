@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #f1f5f9;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header-logo{
+    width: 150px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+@media (min-width : 320px) and (max-width:767px) {
+    .header-logo{
+        width: 100px;
+        margin-left: 5px;
+    }
+}

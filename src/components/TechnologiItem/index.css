@@ -1,0 +1,48 @@
+.tech-item-bg-container{
+    display: flex;
+    width: 20%;
+    margin: 20px;
+    cursor: pointer;
+}
+.tech-logo{
+    width: 30%;
+}
+@media (min-width : 320px) and (max-width:500px) {
+    .tech-item-bg-container{
+        width: 100%;
+    }
+    .tech-logo{
+        width: 40%;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+
+@media (min-width : 500px) and (max-width:850px) {
+    .tech-item-bg-container{
+        width: 40%;
+        align-items: center;
+    }
+    .tech-logo{
+        width: 40%;
+        height: 100%;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+
+@media (min-width : 1200px){
+    .tech-item-bg-container{
+        width: 20%;
+        align-items: center;
+    }
+    .tech-logo{
+        width: 40%;
+        height: 100%;
+    }
+    h3{
+        font-size: 30px;
+    }
+}

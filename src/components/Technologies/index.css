@@ -1,0 +1,32 @@
+.technologies-bg-container{
+    height: 100%;
+    width: 100%;
+}
+.allTechnologies-bg-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.technologies-error-bg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.technologies-error-heading{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.technologies-error-msg{
+    font-size: 13px;
+}
+.retry-button{
+    background-color: rgb(20, 132, 231);
+    border: none;
+    color: #ffffff;
+}
+.retry-button:focus{
+    outline: none;
+}
